@@ -18,8 +18,9 @@ ServerSocket.listen(5)
 def threaded_client(connection):
 	connection.send(str.encode("Welcome to the Server\n"))
 	while True:
-		data = connection.recv(2048)
+		data = connection.recv(1024)
 		reply = 'Server Says:' + data.decode('utf-8')
+		print(data)
 		if not data:
 			break
 		connection.sendall(str.encode(reply))
