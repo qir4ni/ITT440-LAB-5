@@ -8,7 +8,7 @@ port = 8889
 print("Waiting for connection")
 
 try:
-	ClientScoket.connect((host, port))
+	ClientSocket.connect((host, port))
 except socket.error as e:
 	print(str(e))
 
