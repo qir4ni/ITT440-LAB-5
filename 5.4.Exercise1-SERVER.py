@@ -1,7 +1,7 @@
 import socket
 import sys
 import json
-import tqdnm
+import tqdm
 import os
 
 #mydata = {"id":505012, "name":"Azizi", "age":"29"}
