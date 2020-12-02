@@ -14,7 +14,7 @@ s = socket.socket()
 host = '192.168.1.9'
 
 # the port
-port = 0506
+port = 5060
 
 # connect to socket
 print(f"[+] Connecting to {host}:{port}") 
