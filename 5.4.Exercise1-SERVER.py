@@ -38,7 +38,7 @@ print(f"[+] {address} is connected.")
 # receive the file infos
 # receive using client  socket (not server socket)
 received = client_socket.recv(BUFFER_SIZE).decode()
-filename, filesize = received.split(SEPERATOR)
+filename, filesize = received.split(SEPARATOR)
 
 # remove absolute path if there is
 filename = os.path.basename(filename)
