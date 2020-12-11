@@ -11,7 +11,7 @@ BUFFER_SIZE = 4096 # send 4096 bytes each time step
 s = socket.socket()
 
 # the ip address of server
-host = '192.168.1.9'
+host = '192.168.1.10'
 
 # the port
 port = 5060
