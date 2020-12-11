@@ -56,6 +56,7 @@ with open(filename, "wb") as f:
 		if not bytes_read:
 			# nothing is received
 			# file trasmitting is done
+			print("File received successfully")
 			break
 
 		# write to the file the bytes we just received
